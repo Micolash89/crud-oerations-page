@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Operations</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <h1 class="header__h1"> CRUD OPERATIONS</h1>
+        <section class="header__section">
+            <img class="header__section--img" src="" alt="avatar">
+            <span class="header__section--span">Karthi Madesh</span>
+            <span class="header__section--span">Admin</span>
+        </section>
+
+        <nav class="header__nav">
+            <ul class="header__nav--ul">
+                <li class="header__items">
+                    <a href=""><span>
+                            Home
+                        </span>
+                        <i class="ri-home-4-line"></i>
+                    </a>
+                </li>
+                <li class="header__items">
+                    <a href=""><span>Course</span>
+                        <i class="fa-light fa-bookmark fa-rotate-by"
+                            style="color: #000000; --fa-rotate-angle: 000000deg;"></i>
+                    </a>
+                </li>
+                <li class="header__items">
+                    <a href=""><span>
+                            Payment
+                        </span>
+                        <i class="ri-graduation-cap-line"></i>
+                    </a>
+                </li>
+                <li class="header__items">
+                    <a href="">
+                        <span>Report</span>
+                        <i class="ri-file-chart-line"></i>
+                    </a>
+                </li>
+                <li class="header__items">
+                    <a href="">
+                        <span>Settings</span>
+                        <i class="ri-sound-module-line"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+            <button class="header__button">
+                <a href="">
+
+                    Logout
+                </a>
+                <i class="ri-logout-box-r-line"></i>
+            </button>
+        </nav>
+    </header>
+    <main class="main">
+
+        <section class="main__section">
+            <header class="main__section--header headerMain">
+                <button class="headerMain__button">
+                    <i class="ri-arrow-left-circle-line"></i>
+                </button>
+
+                <label for="" class="headerMain__label">
+
+                    <input type="search" name="" id="">
+                    <i class="ri-search-line"></i>
+                </label>
+                <i class="ri-notification-2-line" class="headerMain__icon"></i>
+            </header>
+        </section>
+
+
+        <section class="main__section mainTable">
+            <h2 class="mainTable__h2">Payment Details</h2>
+            <table class="mainTable__table">
+                <thead class="mainTable__table--thead">
+                    <tr>
+                        <th>Name</th>
+                        <th>Payment Schedule</th>
+                        <th>Bill Number</th>
+                        <th>Amount Paid</th>
+                        <th>Balance Amount</th>
+                        <th>Date</th>
+                        <th></th> <!-- Columna para el icono -->
+                    </tr>
+                </thead>
+                <tbody class="mainTable__table--tbody">
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>Mensual</td>
+                        <td>12345</td>
+                        <td>$100.00</td>
+                        <td>$50.00</td>
+                        <td>2024-06-08</td>
+                        <td class="icon">
+                            <img src="icono.png" alt="Icono" width="20" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>María López</td>
+                        <td>Semanal</td>
+                        <td>12346</td>
+                        <td>$200.00</td>
+                        <td>$0.00</td>
+                        <td>2024-06-07</td>
+                        <td class="icon">
+                            <img src="icono.png" alt="Icono" width="20" height="20">
+                        </td>
+                    </tr>
+                    <!-- Puedes agregar más filas aquí -->
+                </tbody>
+            </table>
+        </section>
+
+
+    </main>
+    <footer class="footer">
+
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/9bfe6d5a08.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

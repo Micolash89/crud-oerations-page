@@ -1,0 +1,13 @@
+@import url(estilosGenericos.css);
+@import url(variables.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*
+ font-family: "Montserrat", sans-serif;
+*/
+
+*,
+button,
+a {
+  font-family: "Montserrat", sans-serif;
+}
