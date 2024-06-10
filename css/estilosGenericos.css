@@ -38,12 +38,12 @@ body {
   height: 100vh;
 }
 
-.flexRow {
+.flexrow {
   display: flex;
   flex-direction: row;
 }
 
-.flexColum {
+.flexcolum {
   display: flex;
   flex-direction: column;
 }
