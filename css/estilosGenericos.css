@@ -13,6 +13,7 @@ select {
 
 button {
   background-color: white;
+  width: fit-content;
 }
 
 ul {

@@ -4,16 +4,29 @@
   --dark-black-300: #222222;
   --dark-black-400: rgba(0, 0, 0, 0.712);
 
+  --ligth-white-100: #ffffff;
+
+  --ligth-grey-100: #c4c4c4;
+  --ligth-grey-200: #e5e5e5;
+  --ligth-grey-300: #acacac;
+  --ligth-grey-400: #6c6c6c;
+  --ligth-grey-500: #cdcdcd;
+
   --ligth-yellow-100: #feaf00;
   --ligth-yellow-200: #f2eae1;
-
-  --ligth-white-100: #ffffff;
+  --ligth-yellow-300: #f8f8f8;
+  --ligth-yellow-400: #feae0086;
+  --ligth-yellow-500: #fefbec;
+  --ligth-yellow-600: #f8d442;
 
   --dark-green-100: #249b3e;
   --dark-green-200: #eff7ef;
 
+  --dark-blue-100: #74c1ed;
+  --dark-blue-200: #f0f9ff;
+
   --dark-red-100: rgb(255, 0, 0);
-  --dark-red-200: #faf0f0;
+  --dark-red-200: #fef6fb;
   --dark-red-300: rgba(255, 0, 0, 0.493);
 
   --box-shadow: rgba(0, 0, 0, 0.1);
@@ -31,6 +44,7 @@
   --txt-11: 0.625rem; /*10px*/
   --txt-12: 0.75rem; /*12px*/
   --txt-13: 1.375rem; /*22px*/
+  --txt-14: 1.063rem; /*17px*/
 
   --radius-1: 16px;
   --radius-2: 10px;
@@ -39,6 +53,8 @@
   --radius-5: 6px;
   --radius-6: 4px;
   --radius-7: 5px;
+  --radius-8: 20px;
+
   /*notificacion*/
   --notification-background: #000000;
   --notification-primary: #008ecc;
