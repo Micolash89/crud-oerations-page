@@ -12,39 +12,119 @@
 
 <body>
 
-    <section class="flexrow dashboard">
+    <header class="flexcolum header">
+        <h1 class="header__h1"> CRUD OPERATIONS</h1>
+        <section class="flexcolum header__section">
+            <div class="picture_profile">
 
-        <a href="" class="flexrow dashboard__a" id="student">
-            <div class="flexcolum">
-                <i class="ri-graduation-cap-line"></i>
-                <span>Student</span>
+                <img class="header__section--img" src="images/pablo.png" alt="avatar">
             </div>
-            <span>1231</span>
-        </a>
-        <a href="" class="flexrow dashboard__a" id="course">
-            <div class="flexcolum">
-                <i class="ri-graduation-cap-line"></i>
-                <span>Student</span>
-            </div>
-            <span>1231</span>
-        </a>
-        <a href="" class="flexrow dashboard__a" id="payments">
-            <div class="flexcolum">
-                <i class="ri-graduation-cap-line"></i>
-                <span>Student</span>
-            </div>
-            <span>1231</span>
-        </a>
-        <a href="" class="flexrow dashboard__a" id="user">
-            <div class="flexcolum">
-                <i class="ri-graduation-cap-line"></i>
-                <span>Student</span>
-            </div>
-            <span>1231</span>
+            <span class="header__section--span">Karthi Madesh</span>
+            <span class="header__section--span">Admin</span>
+        </section>
+
+        <nav class="header__nav">
+            <ul class="flexcolum header__nav--ul">
+                <li class="header__items">
+                    <a href="dashboard.html" class="flexrow"><span>
+                            Home
+                        </span>
+                        <i class="ri-home-4-line"></i>
+                    </a>
+                </li>
+                <li class="header__items">
+                    <a href="student.html" class="flexrow"><span>Course</span>
+                        <i class="ri-star-line"></i>
+                    </a>
+                </li>
+                <li class="header__items">
+                    <a href="login.html" class="flexrow"><span>
+                            Payment
+                        </span>
+                        <i class="ri-graduation-cap-line"></i>
+                    </a>
+                </li>
+                <li class="header__items">
+                    <a href="index.html" class="flexrow">
+                        <span>Report</span>
+                        <i class=" ri-file-chart-line"></i>
+                    </a>
+                </li>
+                <li class="header__items">
+                    <a href=" " class="flexrow">
+                        <span>Settings</span>
+                        <i class=" ri-sound-module-line"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <a href="" class="flexrow header__logout">
+            <span>
+                Logout
+
+            </span>
+            <i class="ri-logout-box-r-line"></i>
         </a>
 
-    </section>
+    </header>
 
+    <main class="flexcolum main">
+
+        <section class="main__section">
+            <header class=" flexrow main__section--header headerMain">
+                <button class="headerMain__button">
+                    <i class="ri-arrow-left-circle-line"></i>
+                </button>
+
+                <div class="flexrow headerMain__search">
+
+                    <label for="filter" class=" flexrow headerMain__label">
+                        <i class="ri-search-line"></i>
+                        <input placeholder="Search..." type="search" name="" id="filter">
+                    </label>
+                    <i class="ri-notification-2-line" class="headerMain__icon"></i>
+                </div>
+            </header>
+        </section>
+
+
+        <section class="flexrow dashboard">
+
+            <a href="student.html" class="flexrow dashboard__a" id="student">
+                <div class="flexcolum">
+                    <i class="ri-graduation-cap-line"></i>
+                    <span>Student</span>
+                </div>
+                <span>1231</span>
+            </a>
+            <a href="index.html" class="flexrow dashboard__a" id="course">
+                <div class="flexcolum">
+                    <i class="ri-mind-map"></i>
+                    <span>Student</span>
+                </div>
+                <span>1231</span>
+            </a>
+            <a href="dashboard.html" class="flexrow dashboard__a" id="payments">
+                <div class="flexcolum">
+                    <i class="ri-function-fill"></i>
+                    <span>menu</span>
+                </div>
+                <span>1231</span>
+            </a>
+            <a href="login.html" class="flexrow dashboard__a" id="user">
+                <div class="flexcolum">
+                    <i class="ri-user-line"></i>
+                    <span>login</span>
+                </div>
+                <span>1231</span>
+            </a>
+
+        </section>
+
+    </main>
 
 </body>
 
